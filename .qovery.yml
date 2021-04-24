@@ -1,0 +1,11 @@
+---
+application:
+  name: "map-app-api"
+  project: "map-app-api"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-map-app-api"
+  routes:
+  - application_name: "map-app-api"
+    paths:
+    - "/*"
